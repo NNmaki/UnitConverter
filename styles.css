@@ -1,0 +1,82 @@
+body {
+    background-color: #F4F4F4;
+    margin: 0;
+    font-family: "Inter", sans-serif; 
+}
+
+.top-section {
+    color: #ffffff;
+    width: 100vw;
+    background-color: #6943FF;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-section h1 {
+    font-size: 34px; 
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.main-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 20px auto 40px auto;
+}
+
+.result-container {
+    background-color: white;
+    width: 70vw;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+}
+
+.result-container h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#input-number {
+    background-color: transparent;
+    border: 4px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    width: 117px;
+    height: 73px;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    font-size: 16px;
+    color: #3d3d3d;
+    width: 117px;
+    height: 42px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.credits-container {
+    margin-top: 20px;
+    letter-spacing:.1rem;
+    color:#a4a3a3;
+    font-size:.8rem;
+    font-style:italic;
+    font-weight:700;
+}
